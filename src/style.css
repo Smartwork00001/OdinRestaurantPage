@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "myFonts";
+    src: url("./Anomuitsy.otf") format("openType");
+    font-weight: 600;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    background: url('./ash.jpg');
+    background-size: 100vw auto;
+}
+
+#content{
+    position: relative;
+}
+
+.nav-bar{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.nav-bar-group{
+    display: flex;
+    gap:1rem;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.nav-bar-group > span {
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.home-div, .contact-div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 13%;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-div{
+    display: flex;
+    gap:1rem;
+}
+
+.gallery-item-photo{
+    width: 10vw;
+    height: auto;
+}
+
+.hidden{
+    display: none;
+}
+
+.big-text{
+    font-family: 'myFonts';
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.medium-text{
+    font-family: 'myFonts';
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.small-text{
+    font-family: 'myFonts';
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.white-text{
+    color: #f8fafc;
+}
